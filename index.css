@@ -1,0 +1,208 @@
+.img{
+    background-image: url('./images/gif2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+    padding-top: 19%;
+}
+
+.h1{
+    font-family: 'Sofia';
+    color:cyan;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+span{
+    font-family: 'Alegreya SC';
+    text-shadow: 2px 2px cyan;
+    color: blue;
+    background-clip: text;
+    font-size: 40px;
+}
+
+.h3{
+    text-align: center;
+    font-family: 'Sofia';
+    color: cyan;
+}
+
+.navigation{
+    background-color: red;
+}
+
+.image{
+    position: absolute;
+    border-radius: 50%; 
+    width:15%; 
+    height:30%;
+    top:10%;
+    margin-left:3%;
+    margin-top: 2%;
+}
+
+.skillh1, .educationh1,.projecth1{
+    font-size: 50px;
+    font-family: 'Trade Winds';
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.skillprogress{
+    text-align: center;
+}
+
+.progress-sma{
+    height: 1.5em;
+    width: 40em;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#education{
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 5% 5% 5% 5%;
+    margin: 0 5% 0 5%;
+}
+
+.cardhotel, .carddownloader, .cardtic , .cardreact_todo ,.cardreact_weather, .cardreact_pro {
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.2);
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+  }
+  
+.cardhotel .container , .cardreact_todo .container ,.cardreact_weather .container, .cardreact_pro .container{
+    padding-top: 10%;
+    margin-top: -80%;
+    height: 370px;
+    opacity: 0;
+} 
+
+.cardhotel .container:hover , .cardreact_todo .container:hover ,.cardreact_weather .container:hover, .cardreact_pro .container:hover{
+    margin: 0;
+    height: 170px;
+    opacity: 1;
+}
+  
+.carddownloader .container{
+    padding-top: 10%;
+    margin-top: -80%;
+    height: 400px;
+    opacity: 0;
+} 
+
+.carddownloader .container:hover{
+    margin: 0;
+    height: 180px;
+    opacity: 1;
+}
+.cardtic .container{
+    padding-top: 10%;
+    margin-top: -80%;
+    height: 400px;
+    opacity: 0;
+} 
+
+.cardtic .container:hover{
+    margin: 0;
+    height: 180px;
+    opacity: 1;
+}
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .cardhotel .container a, .carddownloader .container a, .cardtic .container a, .cardreact_todo .container a, .cardreact_weather .container a, .cardreact_pro
+   .container a{
+     text-decoration: none;
+     color: #000;
+     transition: transform .2s;
+ }
+
+ .cardhotel .container img:hover,.carddownloader .container img:hover,.cardtic .container img:hover, .cardreact_todo .container img:hover,
+ .cardreact_weather .container img:hover, .cardreact_pro .container img:hover{
+    transform: scale(1.5);
+}
+
+#contacts{
+    text-align: center;
+    background-color: chocolate;
+    height: 320px;
+}
+
+.contactsh1{
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black, 0 0 55px green, 0 0 20px blue;
+    font-family: 'Trade Winds';
+    background-color: red;
+    color: white;
+    padding: 1% 0 1% 0;
+}
+
+.Image{
+    border: 10px solid darkblue;
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Carter One';
+}
+@media only screen and (max-width: 600px){
+    .img{
+      width: 200%;
+      height:1020px;
+      padding-top: 160%;
+    }
+
+  .image{
+      position: absolute;
+      border-radius: 50%; 
+      width:90%; 
+      height:70%;
+      top:15%;
+      margin-left:60%;
+  }
+  
+  .progress-sma{
+    width: 20em;
+    display: inline-block;
+    margin-left: 2%;
+  }
+
+  .skillprogress{
+    display:grid;
+    grid-template-columns:50% 90% 0%
+  }
+
+  .skillh1{
+    margin-left: 75%;
+  }
+
+  #education{
+      width: 190%;
+  }
+
+  .projecth1{
+    margin-left: 60%;
+  }
+  
+  .cardhotel,.carddownloader,.cardtic{
+    width: 125%;
+  }
+   
+  .cardhotel .container, .carddownloader .container, .cardtic .container{
+    margin: 0;
+    opacity: 1;
+    height: 200px; 
+  } 
+
+  #contacts{
+    width: 200%;
+  }
+}
